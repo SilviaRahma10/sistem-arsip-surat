@@ -1,0 +1,51 @@
+.table {
+	text-align: center;
+}
+
+.table>tbody>tr>* {
+	vertical-align: middle;
+}
+
+/* custom */
+.bg-primary {
+	background-color: #4a42e9 !important;
+}
+
+.btn-primary {
+	background-color: #6c63ff;
+	border-color: #6c63ff;
+}
+
+.btn-primary:hover {
+	background-color: #5a50ff;
+	border-color: #2653d4;
+}
+
+.btn-danger {
+	background-color: #e74a3b;
+	border-color: #e74a;
+}
+
+.btn-danger:hover {
+	background-color: #e03f6a;
+	border-color: #e02f5e;
+}
+
+.btn-outline-danger {
+	color: #f54272;
+	border-color: #f54272;
+}
+
+.btn-outline-danger:hover {
+	color: #fff;
+	background-color: #e02f5e;
+	border-color: #e02f5e;
+}
+
+.border-left-primary {
+	border-left: 0.25rem solid #6c63ff !important;
+}
+
+.badge-primary {
+	background-color: #6c63ff;
+}
